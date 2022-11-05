@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aslamy</title>
+  <!-- Main Css File -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awosome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Google Fonts -->
+  <!-- Font For Logo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Cairo Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start Header -->
+  <header>
+    <div class="container">
+      <div class="logo"> اسلامي </div>
+      <nav>
+        <i class="fas fa-bars icon"></i>
+        <ul> 
+          <li class="active" data-section=".landing"> الصفحه الرئيسيه </li>
+          <li data-section=".hadith"> أحاديث </li>
+          <li data-section=".lectures"> محاضرات </li>
+          <li data-section=".quran"> القـرآن الكـريم </li>
+          <li data-section=".tasbeh"> تسبيح </li>
+          <li data-section=".prayer"> أوقات الصلاة </li>
+          <li data-section=".contact-us"> تواصل معنا </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Landing -->
+  <div class="landing">
+    <div class="container">
+      <div class="landing-content">
+        <h2>مـرحبا بك فـي</h2>
+        <p> مــوقـع أســــلامي</p>
+        <a href="#hadith" class="serving"> إبدأ التصفح</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing -->
+
+  <!-- Start Hadith Section -->
+  <div class="hadith" id="hadith">
+    <h2 class="main-heading"> أحاديث </h2>
+    <div class="container">
+      <div class="hadith-content">
+        <div class="hadith-text"></div>
+      </div>
+      <div class="buttons">
+        <button class="next"> التالي </button>
+        <button class="number-hadith"></button>
+        <button class="prev"> السابق </button>
+      </div>
+    </div>
+  </div>
+  <!-- End Hadith Section -->
+
+  <!-- Start Lectures Section -->
+  <div class="lectures">
+    <div class="container">
+      <h2 class="main-heading"> محاضرات</h2>
+      <div class="lectures-content">
+        <div class="left">
+          <iframe src="https://www.youtube.com/embed/631L-aGzfAE" frameborder="0"></iframe>
+        </div>
+        <div class="right">
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/631L-aGzfAE">
+            <div class="right-text">
+              <h4> مش لاقي الطريق</h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ حازم شومان</p>
+            </div>
+            <img src="images/834.jpg" alt="">
+          </div>
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/kYaFq_5FTdE">
+            <div class="right-text">
+              <h4> لماذا نزل القـرآن عربيا</h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ الشعراوي</p>
+            </div>
+            <img src="images/ا-صور-الشيخ-الشعراوي-14.jpg" alt="">
+          </div>
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/kzStcEvAWvM">
+            <div class="right-text">
+              <h4> نفسي اتوب </h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ حازم شومان </p>
+            </div>
+            <img src="images/834.jpg" alt="">
+          </div>
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/x8aJqqJ_c2s">
+            <div class="right-text">
+              <h4> الفرق بين الشيطان والنفس الآماره بالسوء</h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ الشعراوي</p>
+            </div>
+            <img src="images/ا-صور-الشيخ-الشعراوي-14.jpg" alt="">
+          </div>
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/ku9YOLTDppk">
+            <div class="right-text">
+              <h4> قصص عجيبه في حسن الظن بالله </h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ حازم شومان</p>
+            </div>
+            <img src="images/834.jpg" alt="">
+          </div>
+          <div class="right-content" data-lecture="https://www.youtube.com/embed/cWvdFlH5E6M">
+            <div class="right-text">
+              <h4> كيف أقوم بعد الانتكاس </h4>
+              <p> محاضره رائعه من تقديم فضيلة الشيخ محمد الغليظ</p>
+            </div>
+            <img src="images/artworks-000532609257-icf56i-t500x500.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Lectures Section -->
+
+  <!-- Start Quran Section -->
+  <div class="quran">
+    <div class="container">
+      <h2 class="main-heading"> القـرآن الكريـم</h2>
+      <div class="quran-content"></div>
+    </div>
+    <div class="pop-up">
+      <span class="close"> X </span>
+      <div class="surah-name"></div>
+      <div class="ayat-container"></div>
+      <audio class="surah-audio" src="" controls preload="auto"></audio>
+    </div>
+  </div>
+  <!-- End Quran Section -->
+
+  <!-- Start Tasbeh -->
+  <div class="tasbeh">
+    <div class="container">
+      <h2 class="main-heading"> تسبيح </h2>
+      <div class="tasbeh-container">
+        <ul class="tasbeh-content">
+          <li class="box"> الله اكبر</li>
+          <li class="box"> الحمدلله</li>
+          <li class="box"> سبحان الله </li>
+          <li class="box"> استغفر الله</li>
+          <li class="box"> لا حول ولا قوة الا بالله</li>
+          <li class="box"> لا اله الا الله</li>
+          <li class="box"> سبحان الله وبحمده</li>
+          <li class="box"> ياحي ياقيوم برحمتك استغيث</li>
+          <li class="box"> اعوذ بكلمات الله التامات من شر ماخلق</li>
+        </ul>
+      </div>
+      <div class="fingerPrint">
+        <img src="images/fingerprint_2.png" alt="">
+        <p class="counter"></p>
+      </div>
+      <span class="delete">مسح</span>
+    </div>
+  </div>
+  <!-- End Tasbeh -->
+
+  <!-- Start Prayer Time -->
+  <div class="prayer">
+    <div class="container">
+      <h2 class="main-heading"> أوقـات الـصـلاة</h2>
+      <p class="islamic-date"></p>
+      <div class="cards">
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> الفجر </p>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> الظهر </p>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> العصر </p>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> المغرب </p>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> العشاء </p>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <p class="time"></p>
+          </div>
+          <p class="prayer-name"> قيام الليل </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Prayer Time -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="svg-bg">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,74.7C384,75,480,53,576,42.7C672,32,768,32,864,42.7C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </div>
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="js/main.js"></script>
+</body>
+</html>
